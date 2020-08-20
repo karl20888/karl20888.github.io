@@ -55,10 +55,10 @@ type: categories
         <span class="text-muted small font-weight-light">
           {% if sub_categories_size > 0 %}
             {{ sub_categories_size }}
-            {% if sub_categories_size > 1 %}categories{% else %}category{% endif %},
+            个分类
           {% endif %}
             {{ top_posts_size }}
-            post{% if top_posts_size > 1 %}s{% endif %}
+            篇博文
         </span>
       </span>
 

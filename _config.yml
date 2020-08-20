@@ -115,7 +115,7 @@ defaults:
       location: Post
       breadcrumb:
         -
-          label: 帖子
+          label: 博文
           url: /
   -
     scope:
