@@ -86,8 +86,7 @@ type: categories
           <a href="{{ site.baseurl }}/categories/{{ sub_category | replace: ' ', '-' | downcase | url_encode }}/"
             class="ml-1 mr-2">{{ sub_category }}</a>
           {% assign posts_size = site.categories[sub_category] | size %}
-          <span class="text-muted small font-weight-light">{{ posts_size }}
-            post{% if posts_size > 1 %}s{% endif %}
+          <span class="text-muted small font-weight-light">{{ posts_size }}篇博文
           </span>
         </li>
         {% endfor %}
